@@ -1,0 +1,109 @@
+body, h1, h2, h3,p {
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(58, 102, 141, 0.498);
+  }
+  
+  header {
+    background-color: #164b73;
+    color: rgb(107, 16, 33);
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  h1 {
+    font-size: 2em;
+    color: white;
+  }
+  
+  main {
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
+  .options {
+    flex-wrap: wrap;
+    justify-content: left;
+    
+  }
+  
+  .option {
+    margin: 20px;
+    padding: 20px;
+    background-color:#123d5f;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .option a {
+    text-decoration: none;
+    color:  #fff;
+    font-size: 1.5em;
+  }
+  
+  .option:hover {
+    transform: scale(1.05);
+  }
+  
+  .batman{
+    text-align: center;
+    font-size: 40px;
+    color:black;
+    font-weight: 700;
+  }
+
+/* 
+  .con-table {
+      margin : 15px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size : 1.05em;
+      width : 100%;
+      border-collapse:separate;
+      min-width: 200px;
+      min-height: auto;
+
+  } */
+  table, th, td {
+    border: 1px solid black;
+  }
+  .con-table th, .con-table td{
+      padding: 12px 15px;
+      border: 2px;
+      text-align: center;
+  } 
+
+ .sami{
+  font-size: 1.05em;
+  margin: 10px;
+  color:#6c1a35;
+  text-align: center;
+ }
+
+ .ome{
+    font-size: 1.05em;
+    border: 10px;
+    margin: 10px;
+    text-align: center;
+ }
+ td{
+  text-align: center;
+ }
+ button {
+    margin-left:36%;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #001e35;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
